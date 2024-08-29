@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Title</title>
+<head>
+    <body>
+
+   
+    <center>
+    <table border="1" widthcellspacing="'0">
+      <caption><b>Employee payslip</b></caption>
+     <tr><td>Employee Id:</td><td>{{employeeId}} </td>
+      <tr>
+        <td>Employee Name:</td>
+        <td>
+            <img src="/static/{{employeeName}}.png" width="45"/><br/>
+            {{prefix}}{{employeeName}}
+        </td>
+    </tr>
+    
+        <tr><td>Gender:</td><td>{{gender}} </td>
+          <tr><td>Desgignation:</td><td>{{designation}} </td>
+            <tr><td>DA:[{{da}}%]</td><td>{{daamt}} </td>
+             
+             <tr><td>HRA:[{{hra}}%]</td><td>{{hraamt}} </td>
+              <tr><td>PF:[{{pf}}%]</td><td>{{pfamt}} </td>
+               
+     <tr><td><b>NET salary:</b></td><td>{{netsalary}} </td>
+  
+</center>
+    </body>
+</head>
+</html>

@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>User login</title>
+        <body>
+<form action="/checkpassword" method="post" > {% csrf_token %}
+    <center>
+        <table>
+            <caption> <b>user login</b></caption>
+            <table>
+                <tr>
+                    <td><b>User id </b></td>
+                   <td><input type="text" name="userid"></td>
+                </tr>
+                <tr>
+                    <td><b>Password: </b></td>
+                   <td><input type="password" name="password"></td>
+                </tr>
+            </table>
+            <input type="submit" value="Login">
+        </table>
+    </center>
+</form>
+
+
+        </body>
+    </head>
+</html>
